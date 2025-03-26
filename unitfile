@@ -1,0 +1,9 @@
+[Unit]
+Description=Monitor Test Process
+
+[Service]
+Type=oneshot
+ExecStart=/path/to/monitor_test.sh
+
+[Install]
+WantedBy=multi-user.target
